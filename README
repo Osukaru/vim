@@ -3,7 +3,7 @@ En este repositorio guardaré mi configuración de vim para poderla clonar a cua
 Para utilizar esta configuración, sólo tenemos que clonar el repositorio, inicializar los submódulos y crear un enlace simbólico al fichero vimrc
 
 cd ~
-git clone git://github.com/tatai/vim.git ~/.vim
+git clone git://github.com/Osukaru/vim.git ~/.vim
 cd ~/.vim
 git submodule init
 git submodule update
