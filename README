@@ -1,0 +1,16 @@
+En este repositorio guardaré mi configuración de vim para poderla clonar a cualquier máquina en la que desee trabajar.
+
+Para utilizar esta configuración, sólo tenemos que clonar el repositorio, inicializar los submódulos y crear un enlace simbólico al fichero vimrc
+
+cd ~
+git clone git://github.com/tatai/vim.git ~/.vim
+cd ~/.vim
+git submodule init
+git submodule update
+ln -s ~/.vim/vimrc ~/.vimrc
+
+Los plugins están añadidos usando pathogen. Para añadir un nuevo plugin se usa la instrucción git submodule add:
+
+git submodule add http://github.com/altercation/vim-colors-solarized.git
+git submodule add http://github.com/scrooloose/nerdtree.git bundle/nerdtree
+
