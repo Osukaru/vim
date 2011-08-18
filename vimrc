@@ -12,7 +12,7 @@ filetype plugin indent on
 " Mapeo de <F2> para abrir y cerrar el árbol de directorios
 map <F2> :NERDTreeToggle<cr>
 " Mapeo para moverse a las diferentes áreas de la ventana dividida
-map <F4> <C-W><C-W>
+map <F3> <C-W><C-W>
 map <C-Up> <C-W><Up>
 map <C-Down> <C-W><Down>
 map <C-Right> <C-W><Right>
