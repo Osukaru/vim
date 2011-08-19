@@ -11,6 +11,6 @@ ln -s ~/.vim/vimrc ~/.vimrc
 
 Los plugins están añadidos usando pathogen. Para añadir un nuevo plugin se usa la instrucción git submodule add:
 
-git submodule add http://github.com/altercation/vim-colors-solarized.git
+git submodule add http://github.com/altercation/vim-colors-solarized.git bundle/vim-colors-solarized
 git submodule add http://github.com/scrooloose/nerdtree.git bundle/nerdtree
-
+git submodule add http://github.com/Osukaru/snipmate.vim.git bundle/snipmate.vim
