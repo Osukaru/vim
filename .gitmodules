@@ -6,4 +6,4 @@
 	url = http://github.com/scrooloose/nerdtree.git
 [submodule "bundle/snipmate.vim"]
 	path = bundle/snipmate.vim
-	url = http://github.com/Osukaru/snipmate.vim.git
+	url = http://github.com/msanders/snipmate.vim.git
