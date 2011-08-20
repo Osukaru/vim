@@ -13,6 +13,6 @@ Los plugins están añadidos usando pathogen. Para añadir un nuevo plugin se us
 
 git submodule add http://github.com/altercation/vim-colors-solarized.git bundle/vim-colors-solarized
 git submodule add http://github.com/scrooloose/nerdtree.git bundle/nerdtree
-git submodule add http://github.com/msanders/snipmate.vim.git bundle/snipmate.vim
+git submodule add http://github.com/Osukaru/snipmate.vim.git bundle/snipmate.vim
 
 Para autodetectar los archivos .twig y .html.twig y así utilizar los snippets correspondientes he utilizado vim-twig [https://github.com/beyondwords/vim-twig] que está basado en el plugin de Jinja [http://www.vim.org/scripts/script.php?script_id=1856] y que no los he podido instalar con pathogen, aunque también es verdad que metiendo los snippets en la carpeta snippets del raiz no tengo necesidad de forkear el snipmate original.
