@@ -1,0 +1,21 @@
+# Jasmine
+
+snippet desc
+	describe(${1:description}, function() {
+		${2}
+});
+
+snippet it
+	it(${1:description}, function() {
+		expect(${2:actual}).${3:matcher}(${4:expected});
+});
+
+snippet equal
+it(${1:description}, function() {
+		expect(${2:actual}).toEqual(${3:expected});
+	});
+
+#Console
+
+snippet log
+	console.log(${1:value});${2}
