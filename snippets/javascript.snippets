@@ -1,19 +1,19 @@
 # Jasmine
 
 snippet desc
-	describe(${1:description}, function() {
+	describe("${1:description}", function() {
 		${2}
-});
+	});${3}
 
 snippet it
-	it(${1:description}, function() {
+	it("${1:description}", function() {	
 		expect(${2:actual}).${3:matcher}(${4:expected});
-});
+	});${5}
 
 snippet equal
-it(${1:description}, function() {
+	it("${1:description}", function() {
 		expect(${2:actual}).toEqual(${3:expected});
-	});
+	});${4}
 
 #Console
 
