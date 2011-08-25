@@ -27,3 +27,5 @@ map <C-Up> <C-W><Up>
 map <C-Down> <C-W><Down>
 map <C-Right> <C-W><Right>
 map <C-Left> <C-W><Left>
+"Mapeo para pegar texto sin que autoindente
+set pastetoggle=<F5>
